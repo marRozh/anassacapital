@@ -58,10 +58,10 @@ $(document).ready(() => {
         $('.burger-menu').toggleClass('checked');
 
         if ($('.burger-menu').hasClass('checked')) {
-            $('.mobile-nav-logo').attr('src', './images/main_logo_wt.png');
+            //$('.mobile-nav-logo').attr('src', './images/logo_wt.svg');
             $('body').addClass('body-lock');
         } else {
-            $('.mobile-nav-logo').attr('src', './images/main_logo.png');
+            //$('.mobile-nav-logo').attr('src', './images/logo.svg');
             $('body').removeClass('body-lock');
         }
         

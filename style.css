@@ -335,17 +335,17 @@ html, body {
 }
 
 h1 {
-  color: #006FB9;
+  color: #ec272b;
   font-weight: 600 !important;
 }
 
 h2 {
-  color: #006FB9;
+  color: #ec272b;
   font-weight: 500 !important;
 }
 
 h3, h4, h5, h6 {
-  color: #006FB9;
+  color: #ec272b;
   font-weight: 400 !important;
 }
 
@@ -405,7 +405,7 @@ ul {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #006FB9;
+  background: #ec272b;
   animation: a-ltr-after 1.5s cubic-bezier(0.77, 0, 0.18, 1) forwards;
   transform: translateX(-101%);
 }
@@ -509,27 +509,42 @@ ul {
   animation: fade-in 1s 2s ease both;
   width: 45%;
 }
+
+#title-2 .title-text {
+  animation: fade-in 1s ease both;
+  width: 45%;
+  z-index: 2;
+}
+
 .title-text p {
   font-size: 1.5rem;
+}
+
+#title-2 .title-text p  {
+  font-size: 1.6rem;
 }
 
 .first-inner {
   display: inline-block;
   font-size: 8rem;
   text-transform: uppercase;
-  color: #006FB9;
+  color: #000000;
   animation: inner-left 1s 1s ease both, text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
 }
 
 .second-inner {
   font-size: 8rem;
   text-transform: uppercase;
-  color: #006FB9;
+  color: #000000;
   animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
 }
 
 .title {
   animation: outer-left 1s 1s ease both;
+}
+
+#title-2 {
+  animation: none;
 }
 
 .first > .first-inner {
@@ -551,6 +566,21 @@ ul {
   height: 110%;
   object-fit: cover;
   animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+}
+
+#title-2 .index-image img{
+  animation: fade-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  object-position: left;
+  height: 100%;
+}
+
+#title-2 .index-image {
+  position: fixed;
+  right: 0;
+  width: 100vw;
+  height: 80vh;
+  z-index: 1;
+  bottom: 0;
 }
 
 #about-us-container {
@@ -662,10 +692,10 @@ ul {
 }
 .about-us .aboutus-details img {
   position: fixed;
-  top: 10vh;
+  top: 15vh;
   left: 0;
   width: 20vw;
-  height: 90vh;
+  height: 85vh;
   object-fit: cover;
   animation: image-in 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
 }
@@ -741,7 +771,7 @@ ul {
   height: 70vh;
   width: 100vw;
   position: fixed;
-  background: #006FB9;
+  background: #EFF2EF;
   z-index: 5;
   top: 29vh;
   left: 0;
@@ -768,12 +798,12 @@ ul {
   padding: 5%;
 }
 .team-container .expanded .team-name {
-  color: #fff;
+  color: #000000;
   animation: fade-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both !important;
   opacity: 0;
 }
 .team-container .expanded .team-position {
-  color: #fff;
+  color: #000000;
   animation: fade-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both !important;
   opacity: 0;
 }
@@ -788,11 +818,11 @@ ul {
   animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
 .team-container .expanded .team-description p {
-  color: #fff;
+  color: #000000;
 }
 .team-container .expanded .team-description:after {
   content: "";
-  background: #fff;
+  background: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -1254,6 +1284,14 @@ ul {
   .team-container-mobile {
     display: none;
   }
+
+  #title-2 .title-text p {
+    font-size: 1.4rem;
+}
+
+#title-2 .title-text {
+  margin-top: 10vh;
+}
 }
 @media only screen and (max-width: 767px) {
   .page-heading {
@@ -1399,6 +1437,15 @@ ul {
   .team-container-mobile {
     display: none;
   }
+
+  #title-2 .title-text p {
+    font-size: 1.2rem;
+  }
+
+
+
+
+
 }
 @media only screen and (max-width: 575px) {
   .index-main {
@@ -1530,7 +1577,7 @@ ul {
     font-size: 1.3rem;
     width: fit-content;
     position: relative;
-    border-bottom: 3px solid #006FB9;
+    border-bottom: 3px solid #ec272b;
   }
   .team-container-mobile .accordion li {
     position: relative;
@@ -1687,6 +1734,10 @@ ul {
   .responsibility-container p {
     margin-left: 0;
   }
+
+  #title-2 .title-text p {
+    font-size: 1rem;
+}
 }
 @media only screen and (max-width: 320px) {
   .mobile-nav .burger-menu {
@@ -1702,6 +1753,20 @@ ul {
   .contact-details p {
     font-size: 1.2rem;
   }
+}
+
+
+@media only screen and (max-width: 425px) {
+  #title-2 .title-text {
+    width: 65%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #title-2 .index-image {
+    height: 90vh;
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */
