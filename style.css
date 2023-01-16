@@ -1727,10 +1727,10 @@ ul {
   .responsibility-container {
     padding-top: 2rem;
   }
-  .responsibility-container img {
+  /*.responsibility-container img {
     width: 90vw;
     position: relative;
-  }
+  }*/
   .responsibility-container p {
     margin-left: 0;
   }
