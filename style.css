@@ -1449,8 +1449,7 @@ ul {
 }
 @media only screen and (max-width: 575px) {
   .index-main {
-    height: auto;
-    min-height: 90vh;
+    height: 80vh;
   }
 
   .main {
@@ -1725,7 +1724,7 @@ ul {
   }
 
   .responsibility-container {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   /*.responsibility-container img {
     width: 90vw;
