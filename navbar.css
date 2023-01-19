@@ -91,29 +91,18 @@
     opacity: 1;
   }
   40% {
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
+    -webkit-transform: translateY(-14px);
+            transform: translateY(-14px);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
   65% {
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
-  82% {
-    -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  93% {
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
+
   25%,
   55%,
   75%,
@@ -143,29 +132,18 @@
     opacity: 1;
   }
   40% {
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
+    -webkit-transform: translateY(-14px);
+            transform: translateY(-14px);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
   65% {
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
-  82% {
-    -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  93% {
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
+
   25%,
   55%,
   75%,
@@ -271,6 +249,11 @@
   outline: none;
   cursor: pointer;
 }
+
+.mobile-nav .menu-inner {
+  padding-top: 15vh;
+}
+
 .mobile-nav .burger-menu {
   -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -329,9 +312,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+
   background: #EBEBEB;
   opacity: 0;
   overflow-x: hidden;
@@ -364,6 +346,7 @@
   list-style-type: none;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: column;
 }
 @media screen and (max-width: 750px) {
   .mobile-nav .menu-nav {
@@ -526,6 +509,7 @@
 }
 .main-nav .nav-container .nav-links .nav-link {
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
   position: relative;
 }
 .main-nav .nav-container .nav-links .nav-link:before, .main-nav .nav-container .nav-links .nav-link:after {
@@ -555,9 +539,8 @@
   width: 100%;
   height: 2px;
   position: absolute;
-  background-color: #006FB9;
+  background-color: #E92E30;
   transition: all 0.5s ease-out;
-  transition-delay: 0.5s;
 }
 .main-nav .nav-container .nav-links .nav-link-selected:before {
   top: 0;
@@ -605,9 +588,7 @@
   .main-nav {
     display: flex;
   }
-  .main-nav .nav-link {
-    font-size: 0.8rem !important;
-  }
+
 }
 @media only screen and (max-width: 991px) {
   .mobile-nav, .mobile-bg {

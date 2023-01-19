@@ -71,13 +71,16 @@ $(document).ready(() => {
 
     let currentLink = window.location.pathname;
     console.log(`current link: ${currentLink}`);
+    const linkArray = currentLink.split("/");
+    let selectedLink = `./${linkArray[linkArray.length -1]}`;
+    console.log(`selectedLink: ${selectedLink}`);
 
     //navbar mobile selected link
 
     $('.menu-nav-link').each(function() {
-        if($(this).attr('href') == currentLink) {
-            $(this).css('color', '#fff');
-            $(this).css('border-bottom', '2px solid #fff');
+        if($(this).attr('href') == selectedLink) {
+            $(this).css('color', '#E92E30');
+            //$(this).css('border-bottom', '2px solid #E92E30');
             $(this).css('font-weight', '700');
         }
     });
@@ -85,8 +88,11 @@ $(document).ready(() => {
     //main navbar selection
 
     $('.nav-link').each(function() {
-        if($(this).attr('href') == currentLink) {
-            $(this).addClass('nav-link-selected');
+        if($(this).attr('href') == selectedLink) {
+            //$(this).addClass('nav-link-selected');
+            $(this).css('color', '#E92E30');
+            //$(this).css('border-bottom', '2px solid #E92E30');
+            $(this).css('font-weight', '700');
         }
     });
 
