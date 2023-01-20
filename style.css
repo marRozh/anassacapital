@@ -482,7 +482,7 @@ ul {
 }
 
 .title {
-  padding-left: 1em;
+  padding-left: 10vw;
   width: fit-content;
   font-size: 8vw;
   display: flex;
@@ -1222,6 +1222,11 @@ ul {
   .title {
     justify-content: flex-start;
   }
+
+  .title {
+    padding-left: 5vw;
+  }
+  
   .title .title-text {
     width: 90%;
   }

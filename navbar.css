@@ -465,7 +465,6 @@
 
 .main-nav {
   padding-top: 5vh;
-  overflow: hidden;
   height: 10vh;
   z-index: 5;
   position: fixed;
@@ -498,7 +497,7 @@
 }
 .main-nav .nav-container .nav-links a {
   color: #000000;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
