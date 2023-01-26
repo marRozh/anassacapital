@@ -372,7 +372,8 @@ a:hover {
 }
 .main .main-container {
   padding: 5vw 0;
-  margin: 0 13vw;
+  /*margin: 0 13vw;*/
+  margin: 0 10vw;
 }
 
 ul {
@@ -394,8 +395,9 @@ ul {
   overflow: hidden;
   display: block;
   line-height: 1.2;
-  width: 87.5%;
-  margin-left: 12.5%;
+  /*width: 87.5%;*/
+  width: 100%;
+  /*margin-left: 12.5%;*/
 }
 
 .page-heading::after {
@@ -645,7 +647,7 @@ ul {
 }
 .about-us .aboutus-details {
   width: 72vw;
-  margin-left: 12.5%;
+  /*margin-left: 12.5%;*/
   display: block;
   position: relative;
   height: 90%;
@@ -701,7 +703,7 @@ ul {
 .about-us .aboutus-details img {
   position: fixed;
   top: 15vh;
-  left: 0;
+  right: 0;
   width: 20vw;
   height: 85vh;
   object-fit: cover;
@@ -738,8 +740,13 @@ ul {
   }*/
 }
 .team-container .row {
-  width: 75%;
-  margin-left: 12.5%;
+  /*width: 75%;*/
+  /*margin-left: 12.5%;*/
+}
+.team-container .row .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .team-container .team-member {
   cursor: pointer;
@@ -860,7 +867,7 @@ ul {
 
 .contact-details {
   width: calc(100vw - 25vw - 45vw - 5vw);
-  margin-left: 12.5%;
+  /*margin-left: 12.5%;*/
   margin-top: 5rem;
 }
 .contact-details .general-inquiries a, .contact-details .general-inquiries .general-tel, .contact-details .general-inquiries .general-fax, .contact-details .general-inquiries .general-email {
@@ -1052,7 +1059,7 @@ ul {
 }
 .portfolio-block .row {
   width: 75%;
-  margin-left: 12.5%;
+  /*margin-left: 12.5%;*/
   position: relative;
 }
 .portfolio-block .row .col {
@@ -1106,7 +1113,7 @@ ul {
   font-size: 1.3rem;
   -webkit-animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
-  margin-left: 12.5%;
+  /*margin-left: 12.5%;*/
 }
 
 /*---------------------PAGE SIZES---------------------------*/
@@ -1191,7 +1198,7 @@ ul {
   }
 
   .contact-details {
-    margin-left: 12.5%;
+    /*margin-left: 12.5%;*/
   }
 
   /*.about-us { 
@@ -1283,7 +1290,7 @@ ul {
   }
 
   .contact-details {
-    margin-left: 12.5%;
+    /*margin-left: 12.5%;*/
   }
   .contact-details img {
     width: 35vw;
@@ -1294,7 +1301,7 @@ ul {
     width: 50vw;
   }
   .about-us .aboutus-details {
-    margin-left: 12.5%;
+    /*margin-left: 12.5%;*/
   }
   .about-us .aboutus-details img {
     position: fixed;
@@ -1403,7 +1410,7 @@ ul {
   }
 
   .contact-details {
-    margin-left: 12.5%;
+    /*margin-left: 12.5%;*/
   }
 
   .about-us .aboutus-switch {
@@ -1423,7 +1430,7 @@ ul {
     font-size: 1rem !important;
   }
   .about-us .aboutus-details {
-    margin-left: 12.5%;
+    /*margin-left: 12.5%;*/
   }
   .about-us .aboutus-details img {
     position: fixed;

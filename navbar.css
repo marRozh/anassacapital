@@ -492,7 +492,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
+  justify-content: flex-end;
   overflow: hidden;
 }
 .main-nav .nav-container .nav-links a {
@@ -502,6 +503,10 @@
   font-weight: 600;
   text-align: center;
   transition: all 0.5s;
+  margin: 0 1.3rem;
+}
+.main-nav .nav-container .nav-links a:last-child {
+  margin-right: 0;
 }
 .main-nav .nav-container .nav-links a:hover {
   color: #ec272b;
