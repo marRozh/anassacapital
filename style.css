@@ -1495,7 +1495,7 @@ ul {
   .page-heading {
     font-size: 2.5rem;
     margin-left: 5vw;
-    width: fit-content;
+    width: 100%;
     margin-left: 0;
   }
 
