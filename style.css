@@ -353,6 +353,10 @@ p, li, small {
   color: #43484c;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   text-decoration: none !important;
   font-size: 1.5rem;
@@ -394,7 +398,8 @@ ul {
   position: relative;
   overflow: hidden;
   display: block;
-  line-height: 1.2;
+  /*line-height: 1.2;*/
+  line-height: 3;
   /*width: 87.5%;*/
   width: 100%;
   /*margin-left: 12.5%;*/
@@ -531,7 +536,8 @@ ul {
 }
 
 #title-2 .title-text p  {
-  font-size: 1.6rem;
+  /*font-size: 1.6rem;*/
+  font-size: 13pt;
 }
 
 .first-inner {
@@ -636,9 +642,9 @@ ul {
 }
 .about-us .text-container {
   padding-top: 3rem;
-  width: 65vw;
+  width: 60vw;
   height: 100%;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 .about-us h2 {
   font-size: 3rem;
@@ -656,7 +662,8 @@ ul {
   -webkit-animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   overflow: hidden;
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 13pt;
 }
 .about-us .aboutus-details #about-us-text-3 {
   font-size: 1.5rem;
@@ -685,7 +692,8 @@ ul {
   -webkit-animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   overflow: hidden;
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 13pt;
 }
 .about-us .aboutus-details #history-img {
   display: none;
@@ -872,14 +880,16 @@ ul {
 }
 .contact-details .general-inquiries a, .contact-details .general-inquiries .general-tel, .contact-details .general-inquiries .general-fax, .contact-details .general-inquiries .general-email {
   color: #E92E30 !important;
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 13pt;
     font-weight: 700;
 }
 .contact-details .general-inquiries .general-tel {
   margin-top: 1rem;
 }
 .contact-details p {
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 13pt;
 }
 .contact-details p, .contact-details a {
   animation: fade-in 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
@@ -1079,7 +1089,8 @@ ul {
   align-items: center;
 }
 .social-container p {
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 13pt;
   -webkit-animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
@@ -1111,7 +1122,8 @@ ul {
   filter: grayscale(100%);
 }
 .responsibility-container p {
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 13pt;
   -webkit-animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: text-appear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   /*margin-left: 12.5%;*/
@@ -1123,7 +1135,8 @@ ul {
 
 @media only screen and (min-width: 1200px) {
   .page-heading {
-    font-size: 4rem;
+    /*font-size: 4rem;*/
+    font-size: 17pt;
   }
 
   .title {
@@ -1164,16 +1177,18 @@ ul {
 
   .team-container .team-member .team-name {
 
-    font-size: 1.3rem;
+    /*font-size: 1.3rem;*/
+    font-size: 13pt;
   }
 }
 @media only screen and (max-width: 1199px) {
   .page-heading {
-    font-size: 4rem;
+    /*font-size: 4rem;*/
+    font-size: 17pt;
   }
 
   #title-2 .title-text p {
-    font-size: 1.4rem;
+    /*font-size: 1.4rem;*/
   }
 
   .member-img-expand {
@@ -1232,9 +1247,14 @@ ul {
   .main-container {
     padding: 0;
   }
+  .main .main-container {
+    margin: 0 5vw;
+  }
 
   .page-heading {
-    font-size: 4rem;
+    /*font-size: 4rem;*/
+    font-size: 17pt;
+    line-height: 2.5;
   }
 
   .member-img-expand {
@@ -1303,7 +1323,7 @@ ul {
   }
 
   .about-us .text-container {
-    width: 50vw;
+    width: 60vw;
   }
   .about-us .aboutus-details {
     /*margin-left: 12.5%;*/
@@ -1322,7 +1342,8 @@ ul {
   }
 
   #title-2 .title-text p {
-    font-size: 1.3rem;
+    /*font-size: 1.3rem;*/
+    font-size: 13pt;
 }
 
 #title-2 .title-text {
@@ -1331,7 +1352,8 @@ ul {
 }
 @media only screen and (max-width: 767px) {
   .page-heading {
-    font-size: 4rem;
+    /*font-size: 4rem;*/
+    font-size: 17pt;
   }
 
   .main .main-container {
@@ -1498,7 +1520,8 @@ ul {
   }
 
   .page-heading {
-    font-size: 2.5rem;
+    /*font-size: 2.5rem;*/
+    font-size: 17pt;
     margin-left: 5vw;
     width: 100%;
     margin-left: 0;
@@ -1532,7 +1555,7 @@ ul {
     margin-top: 0;
   }
   #title-2 .title-text {
-    width: 60%;
+    width: 70%;
 }
   .title .title-text p {
     font-size: 16px;
@@ -1613,7 +1636,8 @@ ul {
     font-size: 1.1rem;
   }
   .team-container-mobile .accordion .link h3 {
-    font-size: 1.3rem;
+    /*font-size: 1.3rem;*/
+    font-size: 13pt;
     width: fit-content;
     position: relative;
     border-bottom: 3px solid #ec272b;
@@ -1722,7 +1746,7 @@ ul {
   }
 
   .about-us .text-container {
-    width: 70vw;
+    /*width: 70vw;*/
   }
   .about-us .aboutus-details {
     margin-left: 0;
@@ -1776,6 +1800,13 @@ ul {
 
   #title-2 .title-text p {
     font-size: 1.2rem;
+}
+
+.responsibility-container p {
+  font-size: 1rem;
+}
+.contact-details p {
+  font-size: 1rem;
 }
 }
 @media only screen and (max-width: 320px) {

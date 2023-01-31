@@ -602,6 +602,10 @@
   .main-nav {
     display: none;
   }
+
+  .mobile-nav .menu .menu-nav-item .menu-nav-link {
+    padding: 0%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .mobile-nav, .mobile-bg {
@@ -629,6 +633,8 @@
     height: 100%;
     object-fit: cover;
   }
+
+
 }
 @media only screen and (max-width: 575px) {
   .mobile-nav, .mobile-bg {
@@ -648,6 +654,18 @@
   .main-nav {
     display: none;
   }
+  .mobile-nav .menu .menu-nav-item .menu-nav-link {
+    padding: 5%;
+  }
 }
+
+
+
+@media only screen and (max-height: 675px) {
+  .main-nav {
+    padding-top: 1vh;
+  }
+}
+
 
 /*# sourceMappingURL=navbar.css.map */
