@@ -871,8 +871,9 @@ ul {
   margin-top: 5rem;
 }
 .contact-details .general-inquiries a, .contact-details .general-inquiries .general-tel, .contact-details .general-inquiries .general-fax, .contact-details .general-inquiries .general-email {
-  color: black !important;
-  font-size: 1rem;
+  color: #E92E30 !important;
+  font-size: 1.3rem;
+    font-weight: 700;
 }
 .contact-details .general-inquiries .general-tel {
   margin-top: 1rem;
@@ -1171,6 +1172,10 @@ ul {
     font-size: 4rem;
   }
 
+  #title-2 .title-text p {
+    font-size: 1.4rem;
+  }
+
   .member-img-expand {
     border-radius: 0% !important;
     height: 100% !important;
@@ -1317,7 +1322,7 @@ ul {
   }
 
   #title-2 .title-text p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 #title-2 .title-text {
@@ -1525,9 +1530,10 @@ ul {
   .title .title-text {
     height: auto;
     margin-top: 0;
-    width: 80vw;
-    padding-top: 5%;
   }
+  #title-2 .title-text {
+    width: 60%;
+}
   .title .title-text p {
     font-size: 16px;
   }
@@ -1536,7 +1542,10 @@ ul {
     height: 30%;
     position: relative;
     width: 90%;
+    opacity: 0.4;
   }
+
+
 
   .team-container {
     display: none;
@@ -1796,6 +1805,11 @@ ul {
   #title-2 .index-image {
     height: 90vh;
   }
+
+  #title-2 .title-text {
+    margin-top: 5vh
+  }
+
 
 }
 
