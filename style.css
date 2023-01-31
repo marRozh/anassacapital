@@ -1542,7 +1542,7 @@ ul {
     height: 30%;
     position: relative;
     width: 90%;
-    opacity: 0.4;
+    opacity: 0.2;
   }
 
 
@@ -1775,7 +1775,7 @@ ul {
   }
 
   #title-2 .title-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 }
 @media only screen and (max-width: 320px) {
@@ -1797,7 +1797,7 @@ ul {
 
 @media only screen and (max-width: 425px) {
   #title-2 .title-text {
-    width: 65%;
+    width: 85%;
     margin-top: 0;
     padding-top: 0;
   }
