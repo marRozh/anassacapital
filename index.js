@@ -115,6 +115,8 @@ $(document).ready(() => {
 
     $('.accordion-item').on('click', function() {
         console.log('clicked on accordion item');
+        let thisId = $(this).attr('id');
+        console.log(thisId);
 
         if( $(this).find('.submenu').hasClass('open') ) {
             console.log('here');
@@ -123,6 +125,9 @@ $(document).ready(() => {
             $(this).find('.close-member-mobile').addClass('invisible');
         } else {
             console.log('here 2');
+
+
+
             $('.close-member-mobile').addClass('invisible');
             $('.open').slideUp().removeClass('open');
 
@@ -132,13 +137,21 @@ $(document).ready(() => {
 
             $(this).find('.close-member-mobile').removeClass('invisible');
 
-            let topOffset = $(this).offset().top;
-            console.log(`offset top: ${topOffset}`);
-            $('html, body').animate({scrollTop: topOffset - 150});
+
+            let height = $(`#${thisId} .submenu`).height();
+            console.log(`height: ${height}`);
+
+            let scrollTo = $(`#${thisId}`).position().top - (height/1.5);
+
+
+            $('html, body').animate({scrollTop: scrollTo});
+
         }
         
 
     });
+
+
 
 
 
